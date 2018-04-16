@@ -1,0 +1,2 @@
+sysctl -w vm.nr_hugepages=128
+echo always >/sys/kernel/mm/transparent_hugepage/enabled
