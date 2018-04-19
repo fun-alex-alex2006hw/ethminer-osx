@@ -1,0 +1,2 @@
+mkdir -p `pwd`/data/root
+docker run -d -v `pwd`/data/root:/root alex2006hw/eth-miner:1.0.0
